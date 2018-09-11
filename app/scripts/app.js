@@ -37,9 +37,9 @@ angular
         templateUrl: 'views/galeria.html',
         controller: 'GaleriaCtrl'
       })
-      .when('/miembros', {
-        templateUrl: 'views/miembros.html',
-        controller: 'MiembrosCtrl'
+      .when('/miembro', {
+        templateUrl: 'views/miembro.html',
+        controller: 'MiembroCtrl'
       })
       .otherwise({
         redirectTo: '/'
